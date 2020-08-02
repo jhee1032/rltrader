@@ -26,3 +26,13 @@
 - [plaidML](https://plaidml.github.io/plaidml/)
   - `pip install plaidml-keras==0.6.2`
   - `pip install mplfinance`
+
+## Anaconda Environment
+```bash
+$ conda create --name rltrader
+$ conda activate rltrader
+$ conda install tensorflow-gpu=1.15
+$ conda install pandas
+$ conda install matplotlib
+$ pip install mplfinance
+```
